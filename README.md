@@ -6,9 +6,11 @@ Example:
 Input:[3, 5, 8, 2, 1, 4, 10, 6]  
 Output:[1, 1, 4, 2, 1, 1, 0, 0]
 
-Algorithm 1 Code Explanation: 
-
-This Algorithm models a series of connected houses, each holding a number of candies
-The House class includes constructors to create a single house or a linked list from a list of values, automatically setting negative values to zero
-The getCandy(int n) method calculates the total number of candies from the current house over n steps, while getMaxCandyOnStreet(int n) identifies the best starting point to collect the most candy within n houses 
-The main() function showcases how these features work through sample runs.
+Algorithm 1 Test Bench:  Use the main() function as a test bench
+1. Create House Objects
+2. Use sample candy values like {1, -2, 3, 4} to build a chain of houses
+3. Try the Methods
+4. Use getCandy(n) to see how much candy you get from n houses
+5. Use getMaxCandyOnStreet(n) to find where the most candy can be collected in n steps
+6. Print the Results
+7. Print out what the methods return so you can see if it looks right
